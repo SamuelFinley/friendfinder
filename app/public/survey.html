@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <form role="form" id="forming">
+
+            <h2>Survey Questions</h2>
+            <hr>
+
+            <h3>
+                <strong>About You</strong>
+            </h3>
+            <h4>Name (Required)</h4>
+            <input type="text" id="name" name="name" class="form-control" required="">
+
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" id="photo" name="photo" class="form-control" required="">
+
+            <hr>
+
+            <h3>
+                <strong>Question 1</strong>
+            </h3>
+            <h4>Your like beer.</h4>
+            <div class="container">
+                <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="radio1" id="exampleRadios1" value="1" disabled>
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="radio1" id="exampleRadios2" value="2" disabled>
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio1" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+            <h3>
+                <strong>Question 2</strong>
+            </h3>
+            <h4>Generally speaking, gin makes you sin.</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio2" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio2" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio2" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio2" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio2" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+
+            <h3>
+                <strong>Question 3</strong>
+            </h3>
+            <h4>Whiskey makes you friskey.</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio3" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio3" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio3" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio3" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio3" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+
+            <h3>
+                <strong>Question 4</strong>
+            </h3>
+            <h4>You often find that wine is just fine.</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio4" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio4" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio4" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio4" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio4" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+
+            <h3>
+                <strong>Question 5</strong>
+            </h3>
+            <h4>Of all the things you find handy, it's brandy that makes you randy.</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio5" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio5" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio5" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio5" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio5" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+
+            <h3>
+                <strong>Question 6</strong>
+            </h3>
+            <h4>A nice booze beverage helps with the daily leverage.</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio6" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio6" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio6" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio6" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio6" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+
+            <h3>
+                <strong>Question 7</strong>
+            </h3>
+            <h4>If a fool's giving you lip, you have a mint julep.</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio7" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio7" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio7" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio7" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio7" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+            <h3>
+                <strong>Question 8</strong>
+            </h3>
+            <h4>I can't think of anymore drinking things. Just pick one.</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio8" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio8" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio8" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio8" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio8" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+            <h3>
+                <strong>Question 9</strong>
+            </h3>
+            <h4>You appreciate the 28 refreshing flavors of an ice cold Dr. Pepper</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio9" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio9" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio9" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio9" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio9" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+            <h3>
+                <strong>Question 10</strong>
+            </h3>
+            <h4>Did you submit your status report to the administrator today?</h4>
+            <div class="container">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio10" id="exampleRadios1" value="1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        1 (Strongly Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio10" id="exampleRadios2" value="2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        2 (Disagree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio10" id="exampleRadios3" value="3" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        3 (meh)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio10" id="exampleRadios3" value="4">
+                    <label class="form-check-label" for="exampleRadios3">
+                        4 (Agree)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio10" id="exampleRadios3" value="5">
+                    <label class="form-check-label" for="exampleRadios3">
+                        5 (Strongly Agree)
+                    </label>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="container">
+                    <h2>Modal Example</h2>
+                    <!-- Trigger the modal with a button -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                      <div class="modal-dialog">
+                      
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">You Found A Friend!</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p id="friend">Some text in the modal.</p>
+                            <img id="friendPhoto" src="" alt="oops" width="200px">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                  
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit" data-toggle="modal" data-target="#myModal">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+        </form>
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Friends List</a> |
+                    <a href="https://github.com/SamuelFinley/friendfinder">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
+        let friend = {
+            name: $("#name").val().trim(),
+            photo: $("#photo").val().trim(),
+            survey: []
+        };
+        for (var i = 1; i < 11; i++) {
+            friend.survey.push($('input[name = "radio' + i + '"]:checked').val());
+        }
+        $.post('/api/friends', friend,
+            function (data) {
+                console.log(data)
+                // If a table is available... tell user they are booked.
+                if (data) {
+                    $("#friend").html(data.name);
+                    $("#friendPhoto").attr('src', data.photo);
+                    
+                }
+
+                // If a table is available... tell user they on the waiting list.
+                else {
+                    alert("Sorry you have no friends");
+                }
+            });
+    });
+
+</script>
